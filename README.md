@@ -1,5 +1,7 @@
 # Sveltia CMS Authenticator
 
+[![Build](https://github.com/joeinnes/sveltia-cms-auth/actions/workflows/deploy.yml/badge.svg)](https://github.com/joeinnes/sveltia-cms-auth/actions/workflows/deploy.yml)
+
 This simple [Cloudflare Workers](https://workers.cloudflare.com/) script allows [Sveltia CMS](https://github.com/sveltia/sveltia-cms) (or Netlify/Decap CMS) to [authenticate with GitHub](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps).
 
 You don’t have to use it if you previously had Netlify/Decap CMS and your site is still being deployed to Netlify or if you have already used [another 3rd party OAuth client](https://decapcms.org/docs/external-oauth-clients/).
